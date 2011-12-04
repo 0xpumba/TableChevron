@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42D61351488D08100E6C9BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42D61341488D08100E6C9BB /* UIKit.framework */; };
+		C42D61371488D08100E6C9BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42D61361488D08100E6C9BB /* Foundation.framework */; };
+		C42D61391488D08100E6C9BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42D61381488D08100E6C9BB /* CoreGraphics.framework */; };
+		C42D613F1488D08100E6C9BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C42D613D1488D08100E6C9BB /* InfoPlist.strings */; };
+		C42D61411488D08100E6C9BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D61401488D08100E6C9BB /* main.m */; };
+		C42D61451488D08100E6C9BB /* Table_ChevronAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D61441488D08100E6C9BB /* Table_ChevronAppDelegate.m */; };
+		C42D61481488D08100E6C9BB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42D61461488D08100E6C9BB /* MainStoryboard.storyboard */; };
+		C42D614B1488D08100E6C9BB /* Table_ChevronViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D614A1488D08100E6C9BB /* Table_ChevronViewController.m */; };
+		C473D6451488DAD100C0FB63 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C473D6441488DAD100C0FB63 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C42D61301488D08100E6C9BB /* TableChevron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableChevron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42D61341488D08100E6C9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C42D61361488D08100E6C9BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C42D61381488D08100E6C9BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C42D613C1488D08100E6C9BB /* TableChevron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableChevron-Info.plist"; sourceTree = "<group>"; };
+		C42D613E1488D08100E6C9BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C42D61401488D08100E6C9BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C42D61421488D08100E6C9BB /* TableChevron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableChevron-Prefix.pch"; sourceTree = "<group>"; };
+		C42D61431488D08100E6C9BB /* Table_ChevronAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Table_ChevronAppDelegate.h; sourceTree = "<group>"; };
+		C42D61441488D08100E6C9BB /* Table_ChevronAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_ChevronAppDelegate.m; sourceTree = "<group>"; };
+		C42D61471488D08100E6C9BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C42D61491488D08100E6C9BB /* Table_ChevronViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Table_ChevronViewController.h; sourceTree = "<group>"; };
+		C42D614A1488D08100E6C9BB /* Table_ChevronViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_ChevronViewController.m; sourceTree = "<group>"; };
+		C473D6431488DAD100C0FB63 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C473D6441488DAD100C0FB63 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42D612D1488D08100E6C9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42D61351488D08100E6C9BB /* UIKit.framework in Frameworks */,
+				C42D61371488D08100E6C9BB /* Foundation.framework in Frameworks */,
+				C42D61391488D08100E6C9BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42D61251488D08100E6C9BB = {
+			isa = PBXGroup;
+			children = (
+				C42D613A1488D08100E6C9BB /* TableChevron */,
+				C42D61331488D08100E6C9BB /* Frameworks */,
+				C42D61311488D08100E6C9BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C42D61311488D08100E6C9BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42D61301488D08100E6C9BB /* TableChevron.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42D61331488D08100E6C9BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42D61341488D08100E6C9BB /* UIKit.framework */,
+				C42D61361488D08100E6C9BB /* Foundation.framework */,
+				C42D61381488D08100E6C9BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C42D613A1488D08100E6C9BB /* TableChevron */ = {
+			isa = PBXGroup;
+			children = (
+				C42D61431488D08100E6C9BB /* Table_ChevronAppDelegate.h */,
+				C42D61441488D08100E6C9BB /* Table_ChevronAppDelegate.m */,
+				C42D61461488D08100E6C9BB /* MainStoryboard.storyboard */,
+				C473D6431488DAD100C0FB63 /* DetailViewController.h */,
+				C473D6441488DAD100C0FB63 /* DetailViewController.m */,
+				C42D61491488D08100E6C9BB /* Table_ChevronViewController.h */,
+				C42D614A1488D08100E6C9BB /* Table_ChevronViewController.m */,
+				C42D613B1488D08100E6C9BB /* Supporting Files */,
+			);
+			path = TableChevron;
+			sourceTree = "<group>";
+		};
+		C42D613B1488D08100E6C9BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C42D613C1488D08100E6C9BB /* TableChevron-Info.plist */,
+				C42D613D1488D08100E6C9BB /* InfoPlist.strings */,
+				C42D61401488D08100E6C9BB /* main.m */,
+				C42D61421488D08100E6C9BB /* TableChevron-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42D612F1488D08100E6C9BB /* TableChevron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42D614E1488D08100E6C9BB /* Build configuration list for PBXNativeTarget "TableChevron" */;
+			buildPhases = (
+				C42D612C1488D08100E6C9BB /* Sources */,
+				C42D612D1488D08100E6C9BB /* Frameworks */,
+				C42D612E1488D08100E6C9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableChevron;
+			productName = TableChevron;
+			productReference = C42D61301488D08100E6C9BB /* TableChevron.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42D61271488D08100E6C9BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pumba Hax";
+			};
+			buildConfigurationList = C42D612A1488D08100E6C9BB /* Build configuration list for PBXProject "TableChevron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C42D61251488D08100E6C9BB;
+			productRefGroup = C42D61311488D08100E6C9BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42D612F1488D08100E6C9BB /* TableChevron */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42D612E1488D08100E6C9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42D613F1488D08100E6C9BB /* InfoPlist.strings in Resources */,
+				C42D61481488D08100E6C9BB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42D612C1488D08100E6C9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42D61411488D08100E6C9BB /* main.m in Sources */,
+				C42D61451488D08100E6C9BB /* Table_ChevronAppDelegate.m in Sources */,
+				C42D614B1488D08100E6C9BB /* Table_ChevronViewController.m in Sources */,
+				C473D6451488DAD100C0FB63 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C42D613D1488D08100E6C9BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42D613E1488D08100E6C9BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C42D61461488D08100E6C9BB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42D61471488D08100E6C9BB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42D614C1488D08100E6C9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C42D614D1488D08100E6C9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42D614F1488D08100E6C9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableChevron/TableChevron-Prefix.pch";
+				INFOPLIST_FILE = "TableChevron/TableChevron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C42D61501488D08100E6C9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableChevron/TableChevron-Prefix.pch";
+				INFOPLIST_FILE = "TableChevron/TableChevron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42D612A1488D08100E6C9BB /* Build configuration list for PBXProject "TableChevron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42D614C1488D08100E6C9BB /* Debug */,
+				C42D614D1488D08100E6C9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42D614E1488D08100E6C9BB /* Build configuration list for PBXNativeTarget "TableChevron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42D614F1488D08100E6C9BB /* Debug */,
+				C42D61501488D08100E6C9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42D61271488D08100E6C9BB /* Project object */;
+}
